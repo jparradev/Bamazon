@@ -1,3 +1,7 @@
 # Bamazon
-Node.js app taking command line input and modifying mySQL DB
-by Jeremy Parra
+### by Jeremy Parra
+
+Node.js app mimicking an online store that takes command line input and modifys a MySQL DB
+
+
+## Bamazon has 10 predetermined products
