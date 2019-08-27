@@ -8,6 +8,8 @@ The app has a single interface where the user is prompted to "purchase" items or
 ## Customer Interface
 <hr>
 The customers have the option to select from an inventory list. When a selection is made, the inventory is updated.
+
+![Alt Text](/media/Sequence 01.gif)
  
 If the requested quantity exceeds the actual quantity, the customer is given an error message.
  
