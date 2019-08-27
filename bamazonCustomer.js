@@ -3,7 +3,7 @@ var mysql = require("mysql");
 var inquirer = require("inquirer");
 require("console.table");
 
-// Create connection object variable to initialize database connection
+// Create connection variable to initialize database connection
 var connection = mysql.createConnection({
   host: "localhost",
   port: 3306,
@@ -133,7 +133,7 @@ function checkInventory(choiceId, inventory) {
 function checkIfShouldExit(choice) {
   if (choice.toLowerCase() === "q") {
     // Send message to user and exit the current node process
-    console.log("Goodbye!");
+    console.log("Thank you for shopping at Bamazon!");
     process.exit(0);
   }
 }
