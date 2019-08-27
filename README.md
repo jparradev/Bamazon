@@ -9,11 +9,15 @@ The app has a single interface where the user is prompted to "purchase" items or
 <hr>
 The customers have the option to select from an inventory list. When a selection is made, the inventory is updated.
 
-![Alt Text](/media/Sequence 01.gif)
+![Alt Text](https://github.com/jparradev/Bamazon-CLI/blob/master/Media/Sequence%2001.gif?raw=true)
  
 If the requested quantity exceeds the actual quantity, the customer is given an error message.
+
+![Alt Text](https://github.com/jparradev/Bamazon-CLI/blob/master/Media/Sequence%2002.gif?raw=true)
  
 If the item ID does not exist, the user is given an error message.
+
+![Alt Text](https://github.com/jparradev/Bamazon-CLI/blob/master/Media/Sequence%2003.gif?raw=true)
  
 All changes are registered in the local MySQL database.
  
